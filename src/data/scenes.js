@@ -64,7 +64,7 @@ export default [
         "background": scene2,
         "txts": [
             {
-                "txt": "Vaya, se ha echo de noche... ¿Dónde estarán mis padres? ",
+                "txt": "Vaya, se ha hecho de noche... ¿Dónde estarán mis padres? ",
                 "txtBackground": dialog1,
                 "x": 5,
                 "y": 25,
@@ -88,7 +88,7 @@ export default [
         "background": scene3,
         "txts": [
             {
-                "txt": "(Se oye un ruido entre los arboles) ",
+                "txt": "(Se oye un ruido entre los árboles) ",
                 "txtBackground": dialog1,
                 "x": 25,
                 "y": 25,
@@ -136,7 +136,7 @@ export default [
         "background": scene5,
         "txts": [
             {
-                "txt": "¿Será un lobo? pro favor, dime que no...",
+                "txt": "¿Será un lobo? por favor, dime que no...",
                 "txtBackground": dialog1,
                 "x": 5,
                 "y": 25,
@@ -184,7 +184,7 @@ export default [
         "background": scene7,
         "txts": [
             {
-                "txt": "Se está acercando a mi... ¿Qué hago?",
+                "txt": "Se está acercando a mí... ¿Qué hago?",
                 "txtBackground": dialog1,
                 "x": 5,
                 "y": 25,

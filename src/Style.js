@@ -5,8 +5,4 @@ export const GlobalStyle = createGlobalStyle`
 	body {
 		margin: 0px;
 	}
-
-	*{
-		
-	}
 `;

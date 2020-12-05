@@ -6,9 +6,7 @@ export const Door = styled.div`
  top: ${({ y }) => y}%;
  width: ${({ width }) => width}%;
  height: ${({ height }) => height}%;
- border:2px solid red;
- z-index: 9999;
- cursor: pointer;
 
- 
+ z-index: 9999;
+ cursor: pointer; 
 `;
