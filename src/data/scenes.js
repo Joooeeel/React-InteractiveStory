@@ -18,6 +18,7 @@ export default [
             {
                 "txt": " ",
                 "txtBackground": "",
+                'nameVisible': 'false',
                 "size": 0,
                 "x": 40,
                 "y": 0,
@@ -42,6 +43,7 @@ export default [
             {
                 "txt": "¿Dónde estoy? ... ",
                 "txtBackground": dialog1,
+                'nameVisible': 'true',
                 "x": 5,
                 "y": 25,
                 "size": 2,

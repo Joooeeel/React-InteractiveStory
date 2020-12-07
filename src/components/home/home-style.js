@@ -1,5 +1,6 @@
 import style from 'styled-components';
 import menuImg from '../../img/icono-menu.png';
+import nameImg from '../../img/icononombre.png';
 
 export const Container = style.div`
     width:100%;
@@ -44,5 +45,12 @@ export const Dialog = style.div`
         font-family:Arial, Helvetica, sans-serif;
         text-align: center;
         margin-top:5%;
+    }
+
+    img{
+        width: 25%; height: 35%;
+        position: relative;
+        top: -34%;
+        display: ${({ isvisible }) => isvisible && isvisible == 'true' ? 'block' : 'none'};
     }
 `
