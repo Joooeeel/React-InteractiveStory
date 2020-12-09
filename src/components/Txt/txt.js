@@ -21,6 +21,7 @@ export default ({ data }) => {
     useEffect(() => {
         if (timeout) clearTimeout(timeout);
         setLetterPos(0);
+        setCurrentText('');
         ponerLetra();
     }, [data.txt]);
 

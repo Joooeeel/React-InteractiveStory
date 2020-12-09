@@ -226,7 +226,7 @@ export default [
                 "y": 75,
                 "width": 100,
                 "height": 25,
-                "target": "scene9"
+                "target": ""
             }
         ]
     },
