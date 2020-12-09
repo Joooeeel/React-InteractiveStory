@@ -68,6 +68,7 @@ export default [
             {
                 "txt": "Vaya, se ha hecho de noche... ¿Dónde estarán mis padres? ",
                 "txtBackground": dialog1,
+                'nameVisible': true,
                 "x": 5,
                 "y": 25,
                 "size": 2,
@@ -92,6 +93,7 @@ export default [
             {
                 "txt": "(Se oye un ruido entre los árboles) ",
                 "txtBackground": dialog1,
+                'nameVisible': false,
                 "x": 25,
                 "y": 25,
                 "size": 2.5,
@@ -116,6 +118,7 @@ export default [
             {
                 "txt": "¿Qu... quee ees eso?",
                 "txtBackground": dialog1,
+                'nameVisible': true,
                 "x": 5,
                 "y": 25,
                 "size": 2,
@@ -140,6 +143,7 @@ export default [
             {
                 "txt": "¿Será un lobo? por favor, dime que no...",
                 "txtBackground": dialog1,
+                'nameVisible': true,
                 "x": 5,
                 "y": 25,
                 "size": 2,
@@ -164,6 +168,7 @@ export default [
             {
                 "txt": "Y si ha venido para darme como alimento a su manada...",
                 "txtBackground": dialog1,
+                'nameVisible': true,
                 "x": 5,
                 "y": 25,
                 "size": 2,
@@ -188,6 +193,7 @@ export default [
             {
                 "txt": "Se está acercando a mí... ¿Qué hago?",
                 "txtBackground": dialog1,
+                'nameVisible': true,
                 "x": 5,
                 "y": 25,
                 "size": 2,
@@ -213,6 +219,7 @@ export default [
             {
                 "txt": " ",
                 "txtBackground": dialog1,
+                'nameVisible': true,
                 "x": 5,
                 "y": 25,
                 "size": 2,
