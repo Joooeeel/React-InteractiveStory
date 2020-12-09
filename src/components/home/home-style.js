@@ -51,6 +51,6 @@ export const Dialog = style.div`
         width: 25%; height: 35%;
         position: relative;
         top: -34%;
-        display: ${({ isvisible }) => isvisible && isvisible == 'true' ? 'block' : 'none'};
+        display: ${({ isvisible }) => isvisible ? 'block' : 'none'};
     }
 `
