@@ -7,7 +7,7 @@ import Txt from './components/Txt/txt';
 export default () => {
 
     const getSceneByName = name => scenes.find(obj => obj.title == name)
-    const [currentScene, setCurrentScene] = useState(getSceneByName('main'));
+    const [currentScene, setCurrentScene] = useState(getSceneByName('scene8'));
 
 
     const [width, setWidth] = useState(0);

@@ -10,6 +10,11 @@ import scene6 from '../img/imagen6.png';
 import scene7 from '../img/imagen7.png';
 import scene8 from '../img/imagen8.png';
 
+import scene91 from '../img/imagen9-1.png';
+import scene92 from '../img/imagen9-2.png';
+import scene93 from '../img/imagen9-3.png';
+import scene94 from '../img/imagen9-4.png';
+
 export default [
     {
         "title": "main",
@@ -30,6 +35,7 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 0,
+                "isOption": false,
                 "width": 100,
                 "height": 100,
                 "target": "scene1"
@@ -55,6 +61,7 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 75,
+                "isOption": false,
                 "width": 100,
                 "height": 25,
                 "target": "scene2"
@@ -80,6 +87,7 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 75,
+                "isOption": false,
                 "width": 100,
                 "height": 25,
                 "target": "scene3"
@@ -105,6 +113,7 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 75,
+                "isOption": false,
                 "width": 100,
                 "height": 25,
                 "target": "scene4"
@@ -130,6 +139,7 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 75,
+                "isOption": false,
                 "width": 100,
                 "height": 25,
                 "target": "scene5"
@@ -155,6 +165,7 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 75,
+                "isOption": false,
                 "width": 100,
                 "height": 25,
                 "target": "scene6"
@@ -180,6 +191,7 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 75,
+                "isOption": false,
                 "width": 100,
                 "height": 25,
                 "target": "scene7"
@@ -205,13 +217,13 @@ export default [
                 "type": "square",
                 "x": 0,
                 "y": 75,
+                "isOption": false,
                 "width": 100,
                 "height": 25,
                 "target": "scene8"
             }
         ]
     },
-    ,
     {
         "title": "scene8",
         "background": scene8,
@@ -226,15 +238,81 @@ export default [
                 "maxWidth": 30,
             }
         ],
-        "doors": [
+        'doors': [
             {
                 "type": "square",
-                "x": 0,
-                "y": 75,
-                "width": 100,
-                "height": 25,
+                "isOption": true,
+                "text": "a) Hacerme la muerta",
+                "x": "10",
+                "y": "78",
+                "width": "80",
+                "height": "8",
+                "target": "scene9-1"
+            },
+            {
+                "type": "square",
+                "isOption": true,
+                "text": "b) Coger un palo para protegerme",
+                "x": "10",
+                "y": "88",
+                "width": "80",
+                "height": "8",
                 "target": ""
             }
         ]
     },
+    {
+        "title": "scene9-1",
+        "background": scene91,
+        "txts": [
+            {
+                "txt": " ",
+                "txtBackground": '',
+                'nameVisible': false,
+                "x": 5,
+                "y": 25,
+                "size": 2,
+                "maxWidth": 30,
+            }
+        ],
+        'doors': [
+            {
+                "type": "square",
+                "isOption": false,
+                "text": "",
+                "x": "0",
+                "y": "0",
+                "width": "100",
+                "height": "100",
+                "target": "scene9-2"
+            }
+        ]
+    },
+    {
+        "title": "scene9-2",
+        "background": scene92,
+        "txts": [
+            {
+                "txt": "¿Se ha ido ya? ",
+                "txtBackground": dialog1,
+                'nameVisible': true,
+                "x": 5,
+                "y": 25,
+                "size": 2,
+                "maxWidth": 30,
+            }
+        ],
+        'doors': [
+            {
+                "type": "square",
+                "isOption": false,
+                "text": "",
+                "x": "0",
+                "y": "75",
+                "width": "100",
+                "height": "25",
+                "target": ""
+            }
+        ]
+    }
 ];
