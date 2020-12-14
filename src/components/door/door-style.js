@@ -18,6 +18,6 @@ export const Texto = styled.div`
 color: white;
 font-size:2rem;
 padding: 15px;
-font-family:Arial, Helvetica, sans-serif;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 `

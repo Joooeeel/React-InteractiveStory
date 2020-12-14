@@ -51,6 +51,7 @@ export const Dialog = style.div`
         width: 25%; height: 35%;
         position: relative;
         top: -34%;
+        left: ${({ isRight }) => isRight ? '0%' : '75%'};
         display: ${({ isvisible }) => isvisible ? 'block' : 'none'};
     }
 `

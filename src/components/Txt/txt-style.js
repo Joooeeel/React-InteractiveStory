@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const TextPanel = styled.div`
-    font-size:${({ size }) => size}rem;
+    font-size:${({ size }) => size}%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
