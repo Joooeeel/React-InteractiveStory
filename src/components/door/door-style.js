@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import back from "../../img/seleccion1.png";
 
+const DesktopStartWidth = 996;
+
+const desktop = `@media (min-width: ${DesktopStartWidth}px)`;
+const mobile = `@media (max-width: ${DesktopStartWidth}px)`;
+
 export const Door = styled.div`
  position: absolute;
  left: ${({ x }) => x}%;
@@ -20,4 +25,9 @@ font-size:2rem;
 padding: 15px;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
+
+${mobile}{
+        font-size: 1rem;
+        padding:5px;
+    }
 `

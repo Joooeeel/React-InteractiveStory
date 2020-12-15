@@ -67,7 +67,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -94,7 +94,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -121,7 +121,7 @@ export default [
                 'isLeft': null,
                 "x": 25,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -148,7 +148,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -175,7 +175,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -202,7 +202,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -229,7 +229,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -256,7 +256,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -294,7 +294,7 @@ export default [
                 'isLeft': null,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -322,7 +322,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -350,7 +350,7 @@ export default [
                 'isLeft': false,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -378,7 +378,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -406,7 +406,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -434,7 +434,7 @@ export default [
                 'isLeft': false,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -462,7 +462,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -490,7 +490,7 @@ export default [
                 'isLeft': true,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],
@@ -518,7 +518,7 @@ export default [
                 'isLeft': false,
                 "x": 5,
                 "y": 25,
-                "size": 200,
+                "size": 2,
                 "maxWidth": 30,
             }
         ],

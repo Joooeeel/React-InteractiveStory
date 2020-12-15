@@ -2,8 +2,14 @@ import style from 'styled-components';
 import menuImg from '../../img/icono-menu.png';
 import nameImg from '../../img/icononombre.png';
 
+const DesktopStartWidth = 996;
+
+const desktop = `@media (min-width: ${DesktopStartWidth})`;
+const mobile = `@media (max-width: ${DesktopStartWidth})`;
+
 export const Container = style.div`
     width:100%;
+    height: 100%;
     margin: auto;
     background-color: black;
     position: relative;
@@ -52,6 +58,7 @@ export const Dialog = style.div`
         position: relative;
         top: -34%;
         left: ${({ isRight }) => isRight ? '0%' : '75%'};
+
         display: ${({ isvisible }) => isvisible ? 'block' : 'none'};
     }
 `
