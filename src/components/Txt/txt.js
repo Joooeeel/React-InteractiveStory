@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { TextPanel } from './txt-style';
 
-export default ({ data }) => {
+export default ({ data, doorClickedFlag }) => {
 
     const [currentTxt, setCurrentText] = useState('');
     const [timeout, saveTimeout] = useState(null);
@@ -23,7 +23,7 @@ export default ({ data }) => {
         setLetterPos(0);
         setCurrentText('');
         ponerLetra();
-    }, [data.txt]);
+    }, [data.txt, doorClickedFlag]);
 
     return (
         <TextPanel

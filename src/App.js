@@ -9,6 +9,7 @@ export default () => {
     const getSceneByName = name => scenes.find(obj => obj.title == name)
     const [currentScene, setCurrentScene] = useState(getSceneByName('main'));
 
+    const [doorClickedFlag, setDoorClickedFlag] = useState(false);
 
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);
@@ -36,7 +37,7 @@ export default () => {
     }, []);
 
     return (
-        <Scene back={currentScene.background} width={width} height={height} dataImportant={currentScene.txts}>
+        <Scene doorClickedFlag={doorClickedFlag} back={currentScene.background} width={width} height={height} dataImportant={currentScene.txts}>
             {//CHANGE SCENE
                 currentScene.doors.map(obj => <Door changeScene={(scene) => setCurrentScene(getSceneByName(scene))} data={obj}></Door>
                 )
