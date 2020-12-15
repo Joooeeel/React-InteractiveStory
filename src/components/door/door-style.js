@@ -28,6 +28,6 @@ text-align: center;
 
 ${mobile}{
         font-size: 1rem;
-        padding:5px;
+        padding:0px;
     }
 `
